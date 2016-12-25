@@ -6,6 +6,6 @@ package ua.kpi.PatternsTasks.HumanRolesUnion;
 public class Mushroomer implements HumanState {
     @Override
     public void changeRole() {
-        System.out.println("Now I'm a Mushroomer!");
+        System.out.println(View.MUSHROOMER);
     }
 }

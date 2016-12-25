@@ -6,6 +6,6 @@ package ua.kpi.PatternsTasks.HumanRolesUnion;
 public class Hunter implements HumanState {
     @Override
     public void changeRole() {
-        System.out.println("Now I'm a Hunter!");
+        System.out.println(View.HUNTER);
     }
 }

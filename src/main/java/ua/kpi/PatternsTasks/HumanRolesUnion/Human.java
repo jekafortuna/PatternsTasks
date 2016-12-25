@@ -18,19 +18,19 @@ public class Human {
 
     public void setStateByLocation(){
         if (this.getLocation() == Location.BEACH_OF_RIVER){
-            System.out.println("We are at the beach of river! ");
+            System.out.println(View.AT_THE_BEACH_OF_RIVER);
             this.humanState = new Fisher();
         }
         else if (this.getLocation() == Location.LAND_OF_MUSHROOMS){
-            System.out.println("We are at the land of mushrooms! ");
+            System.out.println(View.AT_THE_LAND_OF_MUSHROOMS);
             this.humanState = new Mushroomer();
         }
         else if (this.getLocation() == Location.MEET_AN_ANIMAL){
-            System.out.println("We meet an animal! Be careful! ");
+            System.out.println(View.MEET_AN_ANIMAL);
             this.humanState = new Hunter();
         }
         else {
-            System.out.println("No such state!!! ");
+            System.out.println(View.NO_SUCH_STATE);
         }
     }
 

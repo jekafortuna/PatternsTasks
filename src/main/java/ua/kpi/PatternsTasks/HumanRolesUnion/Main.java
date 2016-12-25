@@ -14,7 +14,6 @@ public class Main {
         Human human2 = new Human();
         human2.setLocation(Location.MEET_AN_ANIMAL);
         human2.setStateByLocation();
-//        human2.changeRole();
 
         human.setNextState(human2);
         human.changeRole();
