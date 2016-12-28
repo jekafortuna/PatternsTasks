@@ -42,4 +42,12 @@ public class Salad implements SaladActions{
     public Map<Ingredient, Integer> getAvailableIngredients() {
         return null;
     }
+
+    public static class Builder{
+        Salad salad = new Salad();
+
+        public Salad build() {
+            return salad;
+        }
+    }
 }
