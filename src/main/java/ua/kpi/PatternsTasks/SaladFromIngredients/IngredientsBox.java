@@ -8,6 +8,9 @@ import java.util.Map;
  * Storage of ingredients
  */
 public class IngredientsBox {
+    /**
+     * Map of ingredients ready for making salad
+     */
     private Map<Ingredient, Integer> ingredients;
 
     public IngredientsBox() {

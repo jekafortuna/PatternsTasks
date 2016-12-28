@@ -10,7 +10,7 @@ public interface SaladActions {
     void addIngredient(Ingredient ingredient);
     void removeIngredient(Ingredient ingredient);
     boolean isAvailable(Ingredient ingredient);
-    void createSalad();
+    void showSalad();
 
     Map<Ingredient, Integer> getAvailableIngredients();
 }

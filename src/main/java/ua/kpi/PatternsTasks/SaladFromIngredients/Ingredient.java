@@ -5,5 +5,5 @@ package ua.kpi.PatternsTasks.SaladFromIngredients;
  * Ingredients, which salad can consists of
  */
 public enum Ingredient {
-    TOMATO, CUCUMBER, CARBAGE, PARROT, ONION, SALAD_LEAFES, PARSLEY, SALT, PEPER, CHEESE, OIL, BACON
+    TOMATO, CUCUMBER, CARBAGE, PARROT, ONION, SALAD_LEAVES, PARSLEY, SALT, PEPER, CHEESE, OIL, BACON
 }
