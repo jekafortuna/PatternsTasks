@@ -60,8 +60,8 @@ public class Pizza implements Component {
     public static class Builder{
         private Pizza pizza;
 
-        public Builder(Pizza pizza) {
-            this.pizza = pizza;
+        public Builder(String name) {
+            pizza = new Pizza(name);;
         }
 
         public Builder addDough(Dough dough){
