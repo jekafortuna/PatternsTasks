@@ -10,6 +10,7 @@ public enum Sauce implements Component {
     SATZIBELI(0.25),
     ROMESCO_SAUCE(0.45),
     SALSA(0.24),
+    BBQ_SAUCE(0.71),
     RAINBOW_SAUCE(0.05),
     PEPPERCORN_SAUCE(0.3),
     MUSHROOM_KETCHUP(0.64),
@@ -17,8 +18,8 @@ public enum Sauce implements Component {
 
     private double price;
 
-    Sauce(double price) {
-        this.price = price;
+    Sauce(double priceOfSauce) {
+        this.price = priceOfSauce;
     }
 
     @Override
