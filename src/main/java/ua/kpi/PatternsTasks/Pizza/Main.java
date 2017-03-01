@@ -9,6 +9,7 @@ public class Main {
                 .addDough(Dough.COTTAGE_CHEESE_DOUGH)
                 .addSauce(Sauce.PEPPERCORN_SAUCE)
                 .addSauce(Sauce.BBQ_SAUCE)
+                .addSauce(Sauce.MARINARA_SAUCE)
                 .addIngredient(Ingredient.BACON)
                 .addIngredient(Ingredient.MUSHROOMS)
                 .addIngredient(Ingredient.CHEESE)
